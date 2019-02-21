@@ -4,12 +4,12 @@ Hint: Base64, Hexdump
 
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv. Laporan yang diminta berupa:
    * Tentukan negara dengan penjualan(quantity) terbanyak pada tahun 2012.
-  * Tentukan tiga product line yang memberikan penjualan(quantity) terbanyak pada soal poin a.
-  * Tentukan tiga product yang memberikan penjualan(quantity) terbanyak berdasarkan tiga product line yang didapatkan pada soal poin b. 
+   * Tentukan tiga product line yang memberikan penjualan(quantity) terbanyak pada soal poin a.
+   * Tentukan tiga product yang memberikan penjualan(quantity) terbanyak berdasarkan tiga product line yang didapatkan pada soal poin b. 
 
 3. Buatlah sebuah script bash yang dapat menghasilkan password secara acak sebanyak 12 karakter yang terdapat huruf besar, huruf kecil, dan angka. Password acak tersebut disimpan pada file berekstensi .txt dengan ketentuan pemberian nama sebagai berikut:
-a. Jika tidak ditemukan file password1.txt maka password acak tersebut disimpan pada file bernama password1.txt
-b. Jika file password1.txt sudah ada maka password acak baru akan disimpan pada file bernama password2.txt dan begitu seterusnya.
+   * Jika tidak ditemukan file password1.txt maka password acak tersebut disimpan pada file bernama password1.txt
+   * Jika file password1.txt sudah ada maka password acak baru akan disimpan pada file bernama password2.txt dan begitu seterusnya.
 c. Urutan nama file tidak boleh ada yang terlewatkan meski filenya dihapus.
 d. Password yang dihasilkan tidak boleh sama.
 
