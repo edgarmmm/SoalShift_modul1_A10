@@ -5,12 +5,12 @@ Hint: Base64, Hexdump
 	### Jawaban:
 * Source Code: [disini](/soal1.sh)
 * Langkah - langkah:
-		1. Buat Script bash untuk mendecrypt isi file nature.zip 
-		2. File tersebut diunzip menggungakan `unzip`
-		3. Lalu di decrypt menggunakan `base64 -d`
-		4. Setelah itu reverse hexdump filenya dengan `xxd -r`
-		5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
-		`14 14 14 2 5 /bin/bash /home/gede/soal1.sh`
+	1. Buat Script bash untuk mendecrypt isi file nature.zip 
+	2. File tersebut diunzip menggungakan `unzip`
+	3. Lalu di decrypt menggunakan `base64 -d`
+	4. Setelah itu reverse hexdump filenya dengan `xxd -r`
+	5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
+	`14 14 14 2 5 /bin/bash /home/gede/soal1.sh`
 	
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv. Laporan yang diminta berupa:
 
