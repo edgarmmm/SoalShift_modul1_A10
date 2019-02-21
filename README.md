@@ -7,13 +7,13 @@ Hint: Base64, Hexdump
 
 * Source Code: [disini](/soal1.sh)
 * Langkah - langkah:
+	1. Buat Script bash untuk mendecrypt isi file nature.zip 
+	2. File tersebut diunzip menggungakan `unzip`
+	3. Lalu di decrypt menggunakan `base64 -d`
+	4. Setelah itu reverse hexdump filenya dengan `xxd -r`
+	5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
 
-		1. Buat Script bash untuk mendecrypt isi file nature.zip 
-		2. File tersebut diunzip menggungakan `unzip`
-		3. Lalu di decrypt menggunakan `base64 -d`
-		4. Setelah itu reverse hexdump filenya dengan `xxd -r`
-		5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
-		`14 14 14 2 5 /bin/bash /home/gede/soal1.sh`
+      `14 14 14 2 5 /bin/bash /home/gede/soal1.sh`
 
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta
 untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv.
@@ -88,6 +88,7 @@ Laporan yang diminta berupa:
 		* Lalu encrypt file syslog tersebut dengan key dari langkah 2
 		* Setelah itu simpan file encrypt tersebut dengan format yang telah dibuat di langkah 3
 		* Jangan lupa buat cron jobnya sesuai soal seperti dibawah ini
+		
 		`0 */1 * * * /bin/bash /home/gede/soal4.sh`
 	2. Untuk Decrypt
 		* Buat script bash Decrypt terlebih dahulu
@@ -114,4 +115,5 @@ Laporan yang diminta berupa:
 	
 	3. Setelah itu disimpan di /home/\<user>/modul1
 	4. Tidak lupa juga buat cron jobnya sesuai soal seperti dibawah ini
+	
 	`2-30/6 * * * * /bin/bash /home/gede/soal5.sh`
