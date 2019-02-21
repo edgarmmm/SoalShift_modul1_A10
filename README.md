@@ -30,7 +30,6 @@ Laporan yang diminta berupa:
 * Langkah - langkah
 
       a. Buat awk script seperti dibawah ini
-
      ``` bash
 	awk -F "," '{if ($7 == 2012) i[$1]+=$10} END {for (x in i) if(max<i[x]) {max=i[x]; country=x} print max, country}' /home/gede/modul1/WA_Sales_Products_2012-14.csv
      ```
@@ -70,7 +69,8 @@ sebagai berikut:
     c. Urutan nama file tidak boleh ada yang terlewatkan meski filenya dihapus.
 
     d. Password yang dihasilkan tidak boleh sama.
-       ### Jawaban:
+    
+    ### Jawaban:
 * Source code: [disini](/soal3.sh)
 * Langkah - langkah:
 	 1. Buat script bash terlebih dahulu
@@ -94,7 +94,7 @@ Isi dari file backup terenkripsi dengan konversi huruf (string manipulation) yan
 
     e. dan buatkan juga bash script untuk dekripsinya.
 
-       ### Jawaban:
+    ### Jawaban:
 * Source code: [disini](/soal4.sh) dan [disini](/soal4_decrypt.sh)
 * Langkah - langkah:
 	1. Untuk Encrypt
@@ -124,7 +124,7 @@ kriteria berikut:
 
     d. Jalankan script tadi setiap 6 menit dari menit ke 2 hingga 30, contoh 13:02, 13:08, 13:14, dst.
     
-       ### Jawaban:
+    ### Jawaban:
 * Source code: [disini](/soal5.sh)
 * Langkah - langkah:
 	1. Buat script awk terlebih dahulu
