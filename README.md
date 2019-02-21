@@ -13,7 +13,7 @@ Hint: Base64, Hexdump
 	4. Setelah itu reverse hexdump filenya dengan `xxd -r`
 	5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
 
-      `14 14 14 2 5 /bin/bash /home/gede/soal1.sh`
+      14 14 14 2 5 /bin/bash /home/gede/soal1.sh
 
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta
 untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv.
@@ -28,7 +28,7 @@ Laporan yang diminta berupa:
     ### Jawaban: 
 * Source code: [disini](/soal2.sh)
 * Langkah - langkah
-
+      
       a. Buat awk script seperti dibawah ini
      ``` bash
 	awk -F "," '{if ($7 == 2012) i[$1]+=$10} END {for (x in i) if(max<i[x]) {max=i[x]; country=x} print max, country}' /home/gede/modul1/WA_Sales_Products_2012-14.csv
