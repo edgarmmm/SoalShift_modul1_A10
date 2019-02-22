@@ -29,7 +29,7 @@ Laporan yang diminta berupa:
 * Source code: [disini](/soal2.sh)
 * Langkah - langkah
       
-      a. Buat awk script seperti dibawah ini
+     a. Buat awk script seperti dibawah ini
      ``` bash
 	awk -F "," '{if ($7 == 2012) i[$1]+=$10} END {for (x in i) if(max<i[x]) {max=i[x]; country=x} print max, country}' /home/gede/modul1/WA_Sales_Products_2012-14.csv
      ```
