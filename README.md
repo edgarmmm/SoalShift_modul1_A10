@@ -13,7 +13,8 @@ Hint: Base64, Hexdump
 	4. Setelah itu reverse hexdump filenya dengan `xxd -r`
 	5. Lalu buat cron job dengan mengetikan perintah `crontab -e` dan atur waktu sesuai perintah soal
 
-      14 14 14 2 5 /bin/bash /home/gede/soal1.sh
+      14 14 * 2 5 /bin/bash /home/gede/soal1.sh
+      14 14 14 2 * /bin/bash /home/gede/soal1.sh
 
 2. Anda merupakan pegawai magang pada sebuah perusahaan retail, dan anda diminta
 untuk memberikan laporan berdasarkan file WA_Sales_Products_2012-14.csv.
