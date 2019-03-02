@@ -78,9 +78,9 @@ sebagai berikut:
 	 2. Buat array berisi password yang telah disimpan di password1 dst
 	 3. Cek apakah file password1.txt sudah dibuat, bila sudah ada, buat password2.txt. Bila masih ada lakukan terus hingga file password ke n belum dibuat
 	 4. setelah itu buat generate random passwordnya
-	 5. Lalu cek apakah password baru tersebut sudah ada, dengan mengecek array yang di langkah 2
+	 5. Lalu cek apakah password baru tersebut sudah ada, dengan mengecek array yang di langkah ii
 	 6. Jika ada di array ada generate lagi passwordnya dst sampai password tersebut tidak ada di array tersebut
-	 7. Setelah tidak ada simpan password tersebut di file yg sudah dibuat di langkah 3
+	 7. Setelah tidak ada simpan password tersebut di file yg sudah dibuat di langkah iii
 	 
 4. Lakukan backup file syslog setiap jam dengan format nama file “jam:menit tanggal- bulan-tahun”. 
 Isi dari file backup terenkripsi dengan konversi huruf (string manipulation) yang disesuaikan dengan jam dilakukannya backup misalkan sebagai berikut:
@@ -109,10 +109,10 @@ Isi dari file backup terenkripsi dengan konversi huruf (string manipulation) yan
 		  `0 */1 * * * /bin/bash /home/gede/soal4.sh`
 	2. Untuk Decrypt
 		* Buat script bash Decrypt terlebih dahulu
-		* Simpan nama filenya
+		* Simpan nama file yg sudah dienkripsi sebelumnya
 		* Extract keynya dari nama file yang sudah di encrypt
-		* Lalu decrypt file tersebut dengan key yang ada di langkah 3
-		* Setelah itu simpan file encrypt tersebut dengan nama file yang telah disimpan di langkah 2
+		* Lalu decrypt file tersebut dengan key yang ada di langkah iii
+		* Setelah itu simpan file encrypt tersebut dengan nama file yang telah disimpan di langkah ii
 		
 5. Buatlah sebuah script bash untuk menyimpan record dalam syslog yang memenuhi
 kriteria berikut:
